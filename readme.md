@@ -1,33 +1,24 @@
-# REST Template
+# cbvue
+A Contact Editor using Vue.js and ColdBox REST API
 
-This template gives you the base for building RESTFul web services with ColdBox.  Check out the `handlers` folder to see how to leverage our base event handler component for RESTFul routing, consistency and marshalling.
+## Dependencies
+- CommandBox
+- Coldbox Framework
+- Vue.js
+- Vue Resource (for Restful Methods)
+- Boostrap
 
-## License
-Apache License, Version 2.0.
+In this project we create a contacts database and store it in the session scope, then we create actions for CRUD (Create, Read, Update, Delete) operations using Vue.js.
 
-## Important Links
+## Getting Started
 
-Source Code
-- https://github.com/coldbox-templates/rest
+Open a CommandBox terminal by executing `box`, once in the shell execute the following commands:
 
-## Quick Installation
-
-Each application templates contains a `box.json` so it can leverage [CommandBox](http://www.ortussolutions.com/products/commandbox) for its dependencies.  
-Just go into each template directory and type:
-
+**Install Dependencies**
 ```
-box install
+install
 ```
-
-This will setup all the needed dependencies for each application template.  You can then type:
-
+**Startup the Server**
 ```
-box server start
+server start
 ```
-
-And run the application.
-
----
- 
-###THE DAILY BREAD
- > "I am the way, and the truth, and the life; no one comes to the Father, but by me (JESUS)" Jn 14:1-12

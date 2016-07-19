@@ -1,33 +1,87 @@
 {
-    "name":"REST APP Template",
-    "version":"1.0.0",
+    "name":"CBVue",
+    "version":"0.0.0",
     "author":"",
-    "slug":"cbtemplate-rest",
-    "createPackageDirectory":false,
-    "type":"mvc",
-    "keywords":"",
+    "location":"",
+    "directory":"",
+    "createPackageDirectory":true,
+    "packageDirectory":"",
     "homepage":"",
     "documentation":"",
     "repository":{
         "type":"",
-        "url":""
+        "URL":""
     },
     "bugs":"",
-    "shortDescription":"",
+    "slug":"CBVue",
+    "shortDescription":"A sweet package",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"",
+    "keywords":[
+        
+    ],
+    "private":false,
+    "engines":[
+        {
+            "type":"",
+            "version":""
+        }
+    ],
+    "defaultEngine":"",
+    "defaultPort":0,
+    "projectURL":"",
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
     "contributors":[
         
     ],
-    "ignore":[
-        
-    ],
+    "dependencies":{
+        "coldbox":"^4.2.0+00002"
+    },
     "devDependencies":{
-        "testbox":"2.3.0"
+        
     },
     "installPaths":{
-        "coldbox":"coldbox",
-        "testbox":"testbox"
+        "coldbox":"coldbox"
     },
-    "dependencies":{
-        "coldbox":"folder:C:\\Users\\George Murphy\\Documents\\CBVue\\coldbox"
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
+            ""
+        ],
+        "directory":{
+            "mapping":"",
+            "recurse":true
+        },
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "URL":""
+        }
     }
 }

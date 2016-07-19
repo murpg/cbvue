@@ -24,6 +24,18 @@ component extends="coldbox.system.testing.BaseModelTest" model="models.ContactSe
 
 		describe( "ContactService Suite", function(){
 			
+			it( "should getAll", function(){
+                expect( false ).toBeTrue();
+			});
+
+			it( "should save", function(){
+                expect( false ).toBeTrue();
+			});
+
+			it( "should remove", function(){
+                expect( false ).toBeTrue();
+			});
+
 
 		});
 

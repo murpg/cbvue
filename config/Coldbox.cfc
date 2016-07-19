@@ -1,4 +1,4 @@
-﻿component{
+component{
 
 	// Configure ColdBox Application
 	function configure(){
@@ -6,8 +6,7 @@
 		// coldbox directives
 		coldbox = {
 			//Application Setup
-			appName 				= "Your RESTFul app name here",
-			eventName 				= "event",
+			appName 				= "CBVue",
 
 			//Development Settings
 			reinitPassword			= "",
@@ -53,7 +52,7 @@
 		// create a function with the name of the environment so it can be executed if that environment is detected
 		// the value of the environment is a list of regex patterns to match the cgi.http_host.
 		environments = {
-			development = "localhost"
+			development = "localhost,^127"
 		};
 
 		// Module Directives

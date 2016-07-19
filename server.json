@@ -1,11 +1,5 @@
 {
-    "force":true,
     "app":{
         "cfengine":"adobe@11"
-    },
-    "web":{
-        "rewrites":{
-            "enable":true
-        }
     }
 }

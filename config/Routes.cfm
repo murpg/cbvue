@@ -19,10 +19,17 @@
 	}
 
 	// Your Application Routes
+	addRoute(
+		pattern = 'contacts/:contactID?',
+		handler = 'contacts',
+		action = {GET = 'view', POST = 'save', PUT = 'save', DELETE = 'remove'}
+	);
 	
-	addRoute(pattern = 'contacts/:contactID?',handler = 'contacts',action = {GET = 'view', POST = 'save', PUT = 'save', DELETE = 'remove'});
-	addRoute(pattern=":handler/:action?");
-	
+	addRoute(
+		pattern=":handler/:action?"	
+	);
+
+
 	/** Developers can modify the CGI.PATH_INFO value in advance of the SES
 		interceptor to do all sorts of manipulations in advance of route
 		detection. If provided, this function will be called by the SES
